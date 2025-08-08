@@ -25,15 +25,15 @@ export default function login() {
     <View style={styles.container}>
       <View style={styles.brandSection}>
         <View style={styles.logoContainer}>
-          <Ionicons name="leaf" size={32} color={COLORS.primary} />
+          <Ionicons name="library" size={32} color={COLORS.primary} />
         </View>
-        <Text style={styles.appName}>Nat</Text>
-        <Text style={styles.tagline}>Derailing the futura</Text>
+        <Text style={styles.appName}>KDyno</Text>
+        <Text style={styles.tagline}>Fuel Your Mind, Not the Algorithm</Text>
       </View>
 
       <View style={styles.illustrationContainer}>
         <Image
-          source={{uri: "https://t4.ftcdn.net/jpg/11/84/66/31/360_F_1184663199_3exlcqGzrWkIIpGYKGdLl6XRiT76QbhU.jpg"}}
+          source={require("../../assets/images/dino.png")}
           style={styles.illustration}
           resizeMode="cover"
         />
